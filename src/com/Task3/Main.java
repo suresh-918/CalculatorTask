@@ -11,7 +11,7 @@ public class Main {
         library.addBook(new Book("C++ Primer", "Stanley Lippman"));
 
         // Display books
-        System.out.println("📚 Available Books:");
+        System.out.println(" Available Books:");
         library.displayBooks();
 
         // Issue a book
@@ -19,7 +19,7 @@ public class Main {
         library.issueBook("Java Programming");
 
         // Display after issuing
-        System.out.println("\n📚 Books after issuing:");
+        System.out.println("\n Books after issuing:");
         library.displayBooks();
 
         // Return a book
@@ -27,7 +27,7 @@ public class Main {
         library.returnBook("Java Programming");
 
         // Display after returning
-        System.out.println("\n📚 Books after returning:");
+        System.out.println("\n Books after returning:");
         library.displayBooks();
     }
 }
